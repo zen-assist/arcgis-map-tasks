@@ -1,0 +1,7 @@
+{
+  "name": "red_fill",
+  "description": "Solid red fill with dark red outline",
+  "fill_color": [220, 38, 38],
+  "outline_color": [80, 0, 0],
+  "outline_width": 0.5
+}

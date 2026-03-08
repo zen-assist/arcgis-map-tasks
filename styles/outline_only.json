@@ -1,0 +1,7 @@
+{
+  "name": "outline_only",
+  "description": "No fill, black outline only",
+  "fill_color": null,
+  "outline_color": [0, 0, 0],
+  "outline_width": 1.0
+}

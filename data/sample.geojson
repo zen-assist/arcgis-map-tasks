@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "name": "sample_parcels",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "parcel_id": "001", "address": "100 Main St", "acres": 0.25 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-81.800, 26.140], [-81.795, 26.140],
+          [-81.795, 26.145], [-81.800, 26.145], [-81.800, 26.140]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "parcel_id": "002", "address": "200 Oak Ave", "acres": 0.30 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-81.793, 26.140], [-81.788, 26.140],
+          [-81.788, 26.146], [-81.793, 26.146], [-81.793, 26.140]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "parcel_id": "003", "address": "300 Palm Blvd", "acres": 0.40 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-81.800, 26.132], [-81.792, 26.132],
+          [-81.792, 26.138], [-81.800, 26.138], [-81.800, 26.132]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "parcel_id": "004", "address": "400 Gulf Shore Dr", "acres": 0.18 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-81.787, 26.133], [-81.783, 26.133],
+          [-81.783, 26.137], [-81.787, 26.137], [-81.787, 26.133]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "parcel_id": "005", "address": "500 Tamiami Trl", "acres": 0.60 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-81.810, 26.125], [-81.800, 26.125],
+          [-81.800, 26.132], [-81.810, 26.132], [-81.810, 26.125]
+        ]]
+      }
+    }
+  ]
+}

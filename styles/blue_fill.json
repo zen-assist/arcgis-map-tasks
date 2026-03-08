@@ -1,0 +1,7 @@
+{
+  "name": "blue_fill",
+  "description": "Solid blue fill with dark outline",
+  "fill_color": [0, 112, 255],
+  "outline_color": [0, 0, 80],
+  "outline_width": 0.5
+}
